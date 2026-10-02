@@ -62,3 +62,4 @@ html.touch-gallery .archive-grid img{width:100%;height:auto;aspect-ratio:1;objec
 
 /* Keep expanded gallery tiles mounted while scrolling to prevent paint flicker. */
 .archive-grid a{content-visibility:visible;contain:none}
+.archive-grid>a:not(.jewelry-archive){display:none}

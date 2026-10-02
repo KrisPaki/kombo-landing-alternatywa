@@ -24,6 +24,7 @@ const preview = document.querySelector('.preview-window');
 const previewGroup = document.querySelector('.preview-group');
 const motionToggle = document.querySelector('.motion-toggle');
 const gallery = document.querySelector('.full-gallery');
+gallery.querySelector('.gallery-count').textContent = `${gallery.querySelectorAll('.jewelry-archive').length} fotografii do obejrzenia`;
 let photosPaused = reducedMotion.matches;
 // iPadOS/Safari can flash while compositing a continuously moving, duplicated
 // image strip. Touch devices get a stable, native scrollable contact sheet.
