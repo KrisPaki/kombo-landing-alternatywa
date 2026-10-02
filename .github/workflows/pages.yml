@@ -22,7 +22,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir _site
-          cp index.html style.css app.js CNAME _site/
+          cp index.html style.css app.js _site/
           cp -R assets _site/assets
       - uses: actions/upload-pages-artifact@v3
         with:
